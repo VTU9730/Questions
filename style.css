@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#questions{
+    width:fit-content;
+    margin: auto;
+    text-align: center;
+}
+#questions h1{
+    color: goldenrod;
+}
+#article-el{
+    display:flex;
+    justify-content: space-between;
+}
+.question{
+    margin-top: 10px;
+    background-color: aquamarine;
+    padding: 20px 10px;
+    border-radius: 8px;
+    
+}
+span{
+    vertical-align: middle;
+}
+span button{
+    margin: 0 5px 0 40px ;
+}
+.show{
+    display: none;
+}
